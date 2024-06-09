@@ -1,0 +1,57 @@
+//- link(href="https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display:wght@700&display=swap" rel="stylesheet")
+
+extends base.pug
+
+block scripts   
+    script(src='/static/index.js')
+
+block style     
+    style 
+        include ../static/style.css 
+        include ../static/service.css
+
+block content 
+    section#missionSection 
+        h1 Services  
+        div.card   
+            h2 Classical
+            div.card-box 
+                div.img
+                    img(src="/static/clasical.png") 
+                div.content 
+                    p Classical dance   
+
+        div.card   
+            h2 Hip Hop
+            div.card-box 
+                div.img
+                    img(src="/static/hiphop.png") 
+
+                div.content 
+                    p HipHop Dance  
+        div.card   
+            h2 Ballet
+            div.card-box 
+                div.img
+                    img(src="/static/Ballet.jpeg") 
+
+                div.content 
+                    p Ballet dance 
+
+    .container
+      h1 Dance Styles
+
+      .content
+        img(src="/static/clasical.png", alt="Classical Dance")
+        h2 Classical Dance
+        p Classical dance refers to a traditional form of dance which demands high levels of skill, grace, and precision. It is rooted in cultural heritage and often involves intricate footwork, expressive gestures, and elaborate costumes. Examples include Indian classical dances like Bharatanatyam and Kathak, as well as Western forms like ballet.
+
+      .content
+        img(src="/static/hiphop.png", alt="Hip Hop Dance")
+        h2 Hip Hop Dance
+        p Hip Hop dance emerged from the urban culture of the Bronx in New York City during the 1970s. It is characterized by its energetic and improvisational style, incorporating elements like breakdancing, popping, locking, and krumping. Hip Hop dance is often performed to hip hop music and is an essential part of the broader hip hop culture.
+
+      .content
+        img(src="/static/Ballet.jpeg", alt="Ballet Dance")
+        h2 Ballet
+        p Ballet is a highly technical form of dance with its own vocabulary based on French terminology. Originating during the Italian Renaissance and further developed in France and Russia, ballet is known for its rigorous technique, including pointe work, turn-out of the legs, and high extensions. It is performed with classical music and tells stories through its choreography, often in a theatrical setting.

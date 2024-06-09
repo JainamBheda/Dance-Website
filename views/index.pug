@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    title Pop dance Academy 
+    style
+      include ../static/style.css
+  body
+    body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/logo.png")
+                | Dance
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Services]
+            li #[a(href="/") Contact Us]
+    section#introSection
+        div POP DANCE ACADEMY
+        div.small Any Body Can Dance
+
+    section#missionSection 
+        h2 Our Mission  
+        div.card   
+            h2 Classical
+            div.card-box 
+                div.img
+                    img(src="/static/clasical.png") 
+                div.content 
+                    p Classical dance   
+
+        div.card   
+            h2 Hip Hop
+            div.card-box 
+                div.img
+                    img(src="/static/hiphop.png") 
+
+                div.content 
+                    p HipHop Dance  
+        div.card   
+            h2 Ballet
+            div.card-box 
+                div.img
+                    img(src="/static/Ballet.jpeg") 
+
+                div.content 
+                    p Ballet dance     
+
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#Sponsors  
+            img(src="/static/Sponsor1.jpeg", alt="Sony Pictures",Class="Sponsor")
+            img(src="/static/Sponsor2.png", alt="Sony Pictures",Class="Sponsor")
+            img(src="/static/Sponsor3.jpeg", alt="Sony Pictures",Class="Sponsor")
+            img(src="/static/Sponsor4.png", alt="Sony Pictures",Class="Sponsor")
+            img(src="/static/Sponsor5.png", alt="Sony Pictures",Class="Sponsor")
+
+    footer#footer
+        |made by JAINAM BHEDA
+    script
+      include ../static/index.js

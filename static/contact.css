@@ -1,0 +1,51 @@
+h2{
+    text-align: center;
+    margin:8px 0;
+
+}
+.DanceInput{
+    width:30%;
+    padding: 9px;
+    margin: 10px;
+    font-size: 14px;
+    border: 2px solid black;
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+    /* width:50%; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btn{
+    padding:10px 17px;
+    font-size: 18px;
+    border: 2px solid rgb(105, 101, 101);
+    border-radius: 10px;
+    background: rgb(217, 80, 34);
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    cursor:pointer;
+
+}
+.container{
+    min-height: 80vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+
+}
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/static/dance1.jpg');
+    z-index:-1;
+    filter: blur(8px); 
+}

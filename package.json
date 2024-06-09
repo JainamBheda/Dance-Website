@@ -1,0 +1,24 @@
+{
+  "name": "pop_dance_academy",
+  "version": "1.0.0",
+  "description": "Website of India's best Dance Academy loacted in Mumbai",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ABCD",
+    "Any",
+    "Body",
+    "Can",
+    "Dance"
+  ],
+  "author": "Jainam Bheda",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "pug": "^3.0.3"
+  }
+}

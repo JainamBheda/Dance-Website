@@ -1,0 +1,53 @@
+
+.container {
+    width: 80%;
+    max-width: 943px;
+    margin: 1px auto;
+    padding: 20px 40px;
+    background-color: #d0a5a5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    line-height: 1.6;
+  }
+  .container img{
+        height: 94px;
+        width: 143px;
+    
+  }
+  h1, h2 {
+    color: #333;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+  }
+  h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    border-left: 4px solid #3d85c6;
+    padding-left: 10px;
+  }
+  p {
+    color: #555;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+    h1 {
+      font-size: 28px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
